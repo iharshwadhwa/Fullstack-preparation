@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .profile-preview {
+      border: 1px solid transparent;
+      width: 350px;
+      padding: 10px;
+    }
+
+    .left {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    .right {
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 12px;
+    }
+
+    .profile-pic {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    p {
+      margin: 2px 0;
+      font-family: arial;
+    }
+
+    .profile-title {
+      font-weight: bold;
+    }
+
+    .profile-ratings {
+      color: gray;
+    }
+
+    .btn {
+      vertical-align: middle;
+      display: inline-block;
+      margin-left: 20px;
+    }
+
+    .follow {
+      background-color: rgb(36, 119, 234);
+      color: white;
+      padding: 8px 18px;
+      border: none;
+      font-family: arial;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .follow:hover{
+      opacity: 0.8;
+    }
+    .follow:active{
+      opacity: 0.6;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="profile-preview">
+    <div class="left">
+      <img class="profile-pic" src="img 2.jpg" alt="cat dp">
+    </div>
+    <div class="right">
+      <p class="profile-title">Oliver</p>
+      <p class="profile-name">the cat</p>
+      <p class="profile-ratings">Popular</p>
+    </div>
+    <div class="btn">
+      <button class="follow">Follow</button>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+.uber-button {
+    background-color: black;
+    color: white;
+    border: none;
+    margin-left: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+    transition: opacity 0.13s;
+  }
+  .uber-button:hover {
+    opacity: 0.8;
+  }
+  .uber-button:active {
+    opacity: 0.5;
+  }
+
+  .Github-button {
+    background-color: rgb(46, 164, 79);
+    color: White;
+    border: none;
+    border-radius: 6px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-left: 8px;
+    cursor: pointer;
+    transition: box-shadow 0.13s, opacity 0.1s;
+  }
+  .Github-button:hover {
+    box-shadow: 10px 10px 10px rgba(46, 164, 79, 0.3);
+  }
+  .Github-button:active {
+    opacity: 0.8;
+  }
+  .Bootstrap-button {
+    background-color: rgb(121, 82, 179);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 8px;
+    margin-right: 8px;
+    transition: opacity 0.15s;
+    cursor: pointer;
+  }
+
+  .bootstrap-button:hover {
+    opacity: 0.88;
+  }
+  .bootstrap-button:active {
+    opacity: 0.7;
+  }
+
+  .download-button {
+    color: rgb(108, 117, 125);
+    background-color: white;
+    border-color: rgb(108, 117, 125);
+    border-radius: 3px;
+    font-size: medium;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-style: solid;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s, opacity 0.1s;
+  }
+
+  .download-button:hover {
+    background-color: rgb(108, 117, 125);
+    color: white;
+  }
+
+  .download-button:active {
+    opacity: 0.8;
+  }
+
+  .LinkedIn-button {
+    background-color: rgb(10, 102, 194);
+    color: white;
+    font-weight: bold;
+    margin-left: 8px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    transition: opacity 0.15s;
+  }
+  .LinkedIn-button:hover {
+    opacity: 0.85;
+  }
+  .LinkedIn-button:active {
+    opacity: 0.65;
+  }
+  .Save-button {
+    color: rgb(10, 102, 194);
+    border-color: rgb(10, 102, 194);
+    border-style: solid;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s, opacity 0.13s;
+  }
+  .Save-button:hover {
+    background-color: rgb(10, 102, 194);
+    color: white;
+  }
+  .save-button:active {
+    opacity: 0.7;
+  }

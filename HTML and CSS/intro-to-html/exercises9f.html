@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .container {
+      border: 1px solid rgb(220, 220, 220);
+      border-radius: 8px;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+      font-family: arial;
+      text-align: center;
+      width: 200px;
+    }
+
+    .wrapper {
+      width: max-content;
+      margin: 0 auto;
+    }
+
+    .profile {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+    }
+
+    .name,
+    .mutual {
+      color: gray;
+      margin: 10px;
+      font-size: 14px;
+    }
+
+    .add {
+      color: white;
+      background-color: #1A73E8;
+      border: none;
+      margin: 10px;
+      border-radius: 6px;
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    .add:hover {
+      opacity: 0.8;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <div class="grid-info" style="
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      column-gap: 12px;
+      row-gap: 12px;
+    ">
+      <div class="container">
+        <img class="profile" src="img 1.jpg" alt="Cat">
+        <p class="name">Oliver</p>
+        <p class="mutual">2 mutual friends</p>
+        <button class="add">Add Friend</button>
+      </div>
+
+      <div class="container">
+        <img class="profile" src="NationalGeographic_2572187_16x9.avif" alt="Cat">
+        <p class="name">Mimi</p>
+        <p class="mutual">3 mutual friends</p>
+        <button class="add">Add Friend</button>
+      </div>
+
+      <div class="container">
+        <img class="profile" src="FloridaPanther_USFWS.jpg" alt="panther">
+        <p class="name">Rex</p>
+        <p class="mutual">4 mutual friends</p>
+        <button class="add">Add Friend</button>
+      </div>
+
+      <div class="container">
+        <img class="profile" src="img 3.webp" alt="panther">
+        <p class="name">Jungli Billa</p>
+        <p class="mutual">3 mutual friends</p>
+        <button class="add">Add Friend</button>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
