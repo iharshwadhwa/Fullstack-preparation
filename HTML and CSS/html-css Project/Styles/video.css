@@ -7,18 +7,14 @@ p{
 .thumbnail{
   width: 100%;
 }
-.search-bar{
-  display: block;
-}
-.example{
-  display: inline ;
-}
+
+
 .video-title{
   margin-top: 0;
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
 .video-info-grid{
   display: grid;
@@ -47,4 +43,5 @@ p{
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 18px;
   row-gap: 40px;
+  padding:20px;
 }
